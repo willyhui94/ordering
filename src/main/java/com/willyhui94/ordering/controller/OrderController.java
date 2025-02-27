@@ -27,6 +27,7 @@ public class OrderController {
     @PostMapping({ "", "/"})
     public ResponseEntity<CreateOrderResponse> createOrder(@RequestBody CreateOrderCommand createOrderCommand) {
         log.info("createOrderCommand: {}", createOrderCommand);
+        log.info("createOrderCommand: {}", createOrderCommand);
         CreateOrderResponse response = orderService.createOrder(createOrderCommand);
         return ResponseEntity.ok(response);
     }
