@@ -6,7 +6,6 @@ logging:
     com.willyhui94.ordering: DEBUG
 
 spring:
-
   application:
     name: ordering-service
   datasource:
