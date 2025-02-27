@@ -22,3 +22,4 @@ spring:
 #      ddl-auto: create
       ddl-auto: none
       show-sql: true
+
